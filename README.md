@@ -293,6 +293,3 @@ optimized inference pipelines
 
 advanced healthcare assistance features
 
-<div align="center">
-⭐ If you found this project interesting, consider giving it a star!
-</div>
