@@ -1,6 +1,6 @@
 # DermaAI — AI-Powered Skin Disease Diagnosis Platform
 
-### Intelligent Multi-Modal Skin Disease Detection using Deep Learning & NLP
+## Intelligent Multi-Modal Skin Disease Detection using Deep Learning & NLP
 
 ![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)
 ![Flask](https://img.shields.io/badge/Flask-2.x-black?style=for-the-badge\&logo=flask)
