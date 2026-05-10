@@ -9,7 +9,7 @@
 ![FAISS](https://img.shields.io/badge/FAISS-RAG-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Ongoing-success?style=for-the-badge)
 
-**Overview**
+## **Overview**
 
 DermaAI is an AI-powered dermatology assistant designed to provide preliminary skin disease analysis through both:
 
@@ -21,7 +21,8 @@ The platform combines Computer Vision, Natural Language Processing, and Retrieva
 
 Unlike traditional systems that rely on a single input type, DermaAI integrates both visual and textual understanding into one unified experience.
 
-**✨ Key Features**
+## **✨ Key Features**
+
 🔍 AI-powered skin disease prediction
 
 🧠 Text-based symptom analysis using RoBERTa
@@ -44,9 +45,9 @@ Unlike traditional systems that rely on a single input type, DermaAI integrates 
 
 📈 Ongoing model improvement and expansion
 
-**🧠 AI Models & Technologies**
+## **🧠 AI Models & Technologies**
 
-**NLP Pipeline**
+### **NLP Pipeline**
 
 RoBERTa
 
@@ -56,7 +57,7 @@ Symptom classification
 
 Semantic similarity matching
 
-**Computer Vision Pipeline**
+### **Computer Vision Pipeline**
 
 ResNet50
 
@@ -72,7 +73,7 @@ Sentence Transformers
 
 FAISS Vector Search
 
-**Knowledge Base Retrieval**
+### **Knowledge Base Retrieval**
 
 Full Stack
 
@@ -80,7 +81,7 @@ React.js
 
 Flask REST API
 
-**🏗️ System Architecture**
+## **🏗️ System Architecture**
 
 User Input
    │
@@ -96,25 +97,25 @@ User Input
                            ▼
                     React Frontend UI
                     
-**📸 Application Screens**
+## **📸 Application Screens**
 
-**🏠 Homepage**
+### **🏠 Homepage**
 
 <img src="./screenshots/homepage.png" width="900"/>
 
-**💬 AI Diagnosis Chat Interface**
+### **💬 AI Diagnosis Chat Interface**
 
 <img src="./screenshots/chat-interface.png" width="900"/>
 
-**🔄 Comparative Diagnosis Dashboard**
+### **🔄 Comparative Diagnosis Dashboard**
 
 <img src="./screenshots/comparison-dashboard.png" width="900"/>
 
-**ℹ️ About Page**
+### **ℹ️ About Page**
 
 <img src="./screenshots/about-page.png" width="900"/>
 
-**🎯 Problem Statement**
+## **🎯 Problem Statement**
 
 Millions of people worldwide lack immediate access to dermatological consultation. Existing systems often:
 
@@ -138,9 +139,9 @@ AI-assisted chatbot interaction
 
 to support early awareness and accessible preliminary screening.
 
-**⚙️ Tech Stack**
+## **⚙️ Tech Stack**
 
-**Category**	            **Technologies**
+### **Category**	            **Technologies**
 
 Frontend	            React.js, HTML, CSS, Bootstrap
 
@@ -158,31 +159,31 @@ Development Tools	    VS Code, Google Colab, Postman
 
 Postman
 
-**🚀 Getting Started**
+## **🚀 Getting Started**
 
-**1️⃣ Clone Repository**
+### **1️⃣ Clone Repository**
 
 git clone https://github.com/ashfiatanveer/SkinDiseaseDiagnosisChatbot.git
 
 cd SkinDiseaseDiagnosisChatbot
 
-**2️⃣ Backend Setup**
+### **2️⃣ Backend Setup**
 
 Create virtual environment:
 
 python -m venv chatbot_env
 
-**Activate environment:**
+### **Activate environment:**
 
 Windows
 
 chatbot_env\Scripts\activate
 
-**Install dependencies:**
+### **Install dependencies:**
 
 pip install -r requirements.txt
 
-**Run Flask backend:**
+### **Run Flask backend:**
 
 python ChatbotNew-RAG.py
 
@@ -190,13 +191,13 @@ Backend runs on:
 
 http://127.0.0.1:5001
 
-**3️⃣ Frontend Setup**
+## **3️⃣ Frontend Setup**
 
-**Install packages:**
+### **Install packages:**
 
 npm install
 
-**Start React app:**
+### **Start React app:**
 
 npm start
 
@@ -204,7 +205,7 @@ Frontend runs on:
 
 http://localhost:3000
 
-**📊 Current Capabilities**
+## **📊 Current Capabilities**
 
 ✅ Multi-modal diagnosis
 
@@ -222,7 +223,7 @@ http://localhost:3000
 
 ✅ REST API architecture
 
-**🧪 Testing & Evaluation**
+## **🧪 Testing & Evaluation**
 
 The system was evaluated through:
 
@@ -236,7 +237,7 @@ model confidence analysis
 
 frontend/backend integration testing
 
-**The project achieved:**
+## **The project achieved:**
 
 fast prediction response times
 
@@ -246,7 +247,7 @@ stable frontend/backend communication
 
 scalable modular architecture
 
-**🔮 Future Roadmap**
+## **🔮 Future Roadmap**
 
 DermaAI is an actively evolving project. Planned future enhancements include:
 
@@ -270,15 +271,15 @@ DermaAI is an actively evolving project. Planned future enhancements include:
 
 🧬 Advanced RAG-powered medical assistance
 
-**⚠️ Medical Disclaimer**
+## **⚠️ Medical Disclaimer**
 
 DermaAI is designed for educational and preliminary screening purposes only.
 
 The system does not replace professional medical advice, diagnosis, or treatment. Users are strongly encouraged to consult certified dermatologists for accurate clinical evaluation.
 
-**🌟 Project Status**
+## **🌟 Project Status**
 
-**🚧 Ongoing & Continuously Improving**
+### **🚧 Ongoing & Continuously Improving**
 
 This project is actively being expanded with:
 
