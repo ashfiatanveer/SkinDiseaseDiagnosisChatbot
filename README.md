@@ -112,10 +112,6 @@ graph TD
 
 <img src="./screenshots/comparison-dashboard.png" width="900"/>
 
-### **ℹ️ About Page**
-
-<img src="./screenshots/about-page.png" width="900"/>
-
 ## **🎯 Problem Statement**
 
 Millions of people worldwide lack immediate access to dermatological consultation. Existing systems often:
