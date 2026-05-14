@@ -49,29 +49,29 @@ Unlike traditional systems that rely on a single input type, DermaAI integrates 
 
 ### **NLP Pipeline**
 
-RoBERTa
+- RoBERTa
 
-HuggingFace Transformers
+- HuggingFace Transformers
 
-Symptom classification
+- Symptom classification
 
-Semantic similarity matching
+- Semantic similarity matching
 
 ### **Computer Vision Pipeline**
 
-ResNet50
+- ResNet50
 
-EfficientNet
+- EfficientNet
 
-PyTorch
+- PyTorch
 
-OpenCV preprocessing
+- OpenCV preprocessing
 
-RAG Pipeline
+- RAG Pipeline
 
-Sentence Transformers
+- Sentence Transformers
 
-FAISS Vector Search
+- FAISS Vector Search
 
 ### **Knowledge Base Retrieval**
 
