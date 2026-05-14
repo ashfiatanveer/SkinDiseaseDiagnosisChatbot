@@ -82,33 +82,23 @@ React.js
 Flask REST API
 
 ## **🏗️ System Architecture**
+```mermaid
+graph TD
+    A[User Input] --> B[Text Symptoms]
+    A --> C[Skin Image]
+    A --> D[Query Context]
+    
+    B --> E[RoBERTa NLP Model]
+    C --> F[ResNet50 / EfficientNet CNN]
+    D --> G[FAISS + RAG Retrieval]
+    
+    E --> H[Flask REST API Backend]
+    F --> H
+    G --> H
+    
+    H --> I[React Frontend UI]
+```
 
-User Input
-
-   │
-   
-   ├── Text Symptoms ──► RoBERTa NLP Model
-   
-   │
-   
-   ├── Skin Image ────► ResNet50 / EfficientNet
-   
-   │
-   
-   └── Query Context ─► FAISS + RAG Retrieval
-   
-                           │
-                           
-                           ▼
-                           
-                 Flask REST API Backend
-                           
-                           │
-                           
-                           ▼
-                           
-                    React Frontend UI
-                    
 ## **📸 Application Screens**
 
 ### **🏠 Homepage**
@@ -155,21 +145,20 @@ to support early awareness and accessible preliminary screening.
 
 ### **Category**	            **Technologies**
 
-Frontend	            React.js, HTML, CSS, Bootstrap
+- Frontend	            - React.js, HTML, CSS, Bootstrap
 
-Backend     	        Flask, Flask-RESTful
+- Backend     	         - Flask, Flask-RESTful
 
-AI/ML	                PyTorch, Transformers, OpenCV
+- AI/ML	               - PyTorch, Transformers, OpenCV
 
-NLP	                  RoBERTa, Sentence Transformers
+- NLP	                  - RoBERTa, Sentence Transformers
 
-Retrieval	            FAISS
+- Retrieval	            - FAISS
 
-Version Control      	Git & GitHub
+- Version Control      	- Git & GitHub
 
-Development Tools	    VS Code, Google Colab, Postman
+- Development Tools	   - VS Code, Google Colab, Postman
 
-Postman
 
 ## **🚀 Getting Started**
 
