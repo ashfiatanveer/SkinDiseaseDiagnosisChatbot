@@ -84,7 +84,9 @@ Flask REST API
 ## **🏗️ System Architecture**
 
 User Input
+
    │
+   
    ├── Text Symptoms ──► RoBERTa NLP Model
    
    │
