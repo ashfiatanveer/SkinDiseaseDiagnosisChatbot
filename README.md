@@ -86,15 +86,25 @@ Flask REST API
 User Input
    │
    ├── Text Symptoms ──► RoBERTa NLP Model
+   
    │
+   
    ├── Skin Image ────► ResNet50 / EfficientNet
+   
    │
+   
    └── Query Context ─► FAISS + RAG Retrieval
+   
                            │
+                           
                            ▼
+                           
                  Flask REST API Backend
+                           
                            │
+                           
                            ▼
+                           
                     React Frontend UI
                     
 ## **📸 Application Screens**
@@ -119,23 +129,23 @@ User Input
 
 Millions of people worldwide lack immediate access to dermatological consultation. Existing systems often:
 
-rely solely on image-based prediction
+- rely solely on image-based prediction
+ 
+- lack conversational interaction
 
-lack conversational interaction
+- do not compare textual and visual diagnosis
 
-do not compare textual and visual diagnosis
-
-provide limited accessibility
+- provide limited accessibility
 
 **DermaAI addresses these limitations by integrating:**
 
-NLP symptom understanding
+- NLP symptom understanding
 
-image classification
+- image classification
 
-comparative diagnostic logic
+- comparative diagnostic logic
 
-AI-assisted chatbot interaction
+- AI-assisted chatbot interaction
 
 to support early awareness and accessible preliminary screening.
 
@@ -227,25 +237,25 @@ http://localhost:3000
 
 The system was evaluated through:
 
-unit testing
+- unit testing
 
-functional testing
+- functional testing
 
-API validation
+- API validation
 
-model confidence analysis
+- model confidence analysis
 
 frontend/backend integration testing
 
 ## **The project achieved:**
 
-fast prediction response times
+- fast prediction response times
 
-high classification accuracy
+- high classification accuracy
 
-stable frontend/backend communication
+- stable frontend/backend communication
 
-scalable modular architecture
+- scalable modular architecture
 
 ## **🔮 Future Roadmap**
 
@@ -283,13 +293,13 @@ The system does not replace professional medical advice, diagnosis, or treatment
 
 This project is actively being expanded with:
 
-enhanced AI capabilities
+- enhanced AI capabilities
 
-improved datasets
+- improved datasets
 
-additional disease coverage
+- additional disease coverage
 
-optimized inference pipelines
+- optimized inference pipelines
 
-advanced healthcare assistance features
+- advanced healthcare assistance features
 
