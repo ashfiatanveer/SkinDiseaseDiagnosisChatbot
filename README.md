@@ -82,21 +82,20 @@ React.js
 Flask REST API
 
 ## **🏗️ System Architecture**
+
 ```mermaid
 graph TD
-    A[User Input] --> B[Text Symptoms]
-    A --> C[Skin Image]
-    A --> D[Query Context]
+    A[User Input] --> B[Skin Image]
+    A --> C[Text Symptoms]
     
-    B --> E[RoBERTa NLP Model]
-    C --> F[ResNet50 / EfficientNet CNN]
-    D --> G[FAISS + RAG Retrieval]
+    B --> D[ResNet50 / EfficientNet CNN]
+    C --> E[FAISS + RAG Retrieval]
+    E --> F[RoBERTa NLP Model]
     
-    E --> H[Flask REST API Backend]
-    F --> H
-    G --> H
+    D --> G[Flask REST API Backend]
+    F --> G
     
-    H --> I[React Frontend UI]
+    G --> H[React Frontend UI]
 ```
 
 ## **📸 Application Screens**
